@@ -1,4 +1,4 @@
-const BASE_URL = 'https://binotik.github.io/media-belajar-ulm-bayu';
+const BASE_URL = '';
 const FIREBASE_CONFIG = {
     apiKey: "AIzaSyCiLuxCkupjD2NeXMlzU1-RddApOPp67sQ",
     authDomain: "mediapembelajaran-fe691.firebaseapp.com",
