@@ -96,13 +96,13 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseThree" aria-expanded="false"
                                 aria-controls="flush-collapseThree">
                                 Bab III: Pengukuran Sudut dengan Busur Derajat
                             </button>
                         </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse show collapse"
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
                             aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body p-0">
                                 <div class="list-group list-group-flush">
@@ -117,15 +117,13 @@
                                     <a href="./3-ayo-berlatih.html" class="list-group-item list-group-item-action">
                                         Ayo Berlatih
                                     </a>
-                                    <a href="./4-latihan-soal-1.html"
-                                        class="list-group-item list-group-item-action active">
+                                    <a href="./4-latihan-soal-1.html" class="list-group-item list-group-item-action">
                                         Latihan Soal 1
                                     </a>
                                     <a href="./5-tugas-proyek.html" class="list-group-item list-group-item-action">
                                         Tugas Proyek
                                     </a>
-                                    <a href="./6-latihan-soal-2.html"
-                                        class="list-group-item list-group-item-action disabled">
+                                    <a href="./6-latihan-soal-2.html" class="list-group-item list-group-item-action">
                                         Latihan Soal 2
                                     </a>
                                 </div>
@@ -139,7 +137,7 @@
                 <div class="card mb-2">
                     <div class="card-header">
                         <h5 class="card-title mt-2">
-                            Latihan Soal
+                            Evaluasi
                         </h5>
                     </div>
                     <div class="card-body overflow-scroll p-4" style="height: 370px;">
@@ -169,27 +167,48 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-success mt-3 disabled" id="btn-finish">Selesai</button>
+                                <button class="btn btn-outline-success mt-3 disabled"
+                                    id="btn-finish-evaluation">Selesai</button>
                             </div>
                         </div>
 
                     </div>
-                    <div class="card-footer text-muted">
-                        <a href="./3-ayo-berlatih.html" class="btn btn-outline-primary btn-next disabled float-start">
-                            <i class="bi-arrow-left fw-bold me-1"></i> Sebelumnya
-                        </a>
-                        <a href="./5-tugas-proyek.html" class="btn btn-primary btn-next disabled float-end">
-                            Selanjutnya <i class="bi-arrow-right fw-bold ms-1"></i>
-                        </a>
-                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Masukkan Data Diri</h5>
+                </div>
+                <div class="modal-body">
+                    <label for="nama" class="form-label">Nama</label>
+                    <input type="text" id="nama" class="form-control" placeholder="Masukkan Nama" autofocus>
+                    <br>
+                    <label for="kelas" class="form-label">Kelas</label>
+                    <input type="text" id="kelas" class="form-control" placeholder="Masukkan Kelas">
+                    <br>
+                    <label for="sekolah" class="form-label">Sekolah</label>
+                    <input type="text" id="sekolah" class="form-control" placeholder="Masukkan Sekolah">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="btn-ready">Simpan</button>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="../../asset/js/global.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
     <script src="../../asset/js/jquery.min.js"></script>
-    <script>const QUESTION_URL = 'soal/latihan-soal-3.json';</script>
+    <script>const QUESTION_URL = 'soal/evaluasi-soal.json';</script>
+    <script src="../../asset/js/evaluasi-soal.js" defer></script>
     <script src="../../asset/js/latihan-soal.js" defer></script>
 </body>
 

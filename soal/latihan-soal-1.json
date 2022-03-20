@@ -1,0 +1,236 @@
+[
+    {
+        "id": 1,
+        "pertanyaan": "Untuk mengukur besar suatu sudut, kita menggunakan alat…",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "Penggaris"
+            },
+            {
+                "id": "b",
+                "nilai": "Jangka"
+            },
+            {
+                "id": "c",
+                "nilai": "Busur Derajat"
+            },
+            {
+                "id": "d",
+                "nilai": "Gelas Ukur"
+            }
+        ],
+        "jawaban": "a"
+    },
+    {
+        "id": 2,
+        "pertanyaan": "Sebuah sudut yang lebih besar dari 180˚ tetapi lebih kecil dari 360˚ disebut…",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "Sudut Lancip"
+            },
+            {
+                "id": "b",
+                "nilai": "Sudut Tumpul"
+            },
+            {
+                "id": "c",
+                "nilai": "Sudut Pelurus"
+            },
+            {
+                "id": "d",
+                "nilai": "Sudut Refleks"
+            }
+        ],
+        "jawaban": "d"
+    },
+    {
+        "id": 3,
+        "pertanyaan": "Dua buah garis dikatakan sejajar, apabila…",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "Kedua garis itu terletak pada satu bidang."
+            },
+            {
+                "id": "b",
+                "nilai": "Kedua garis itu tidak berpotongan"
+            },
+            {
+                "id": "c",
+                "nilai": "Kedua garis itu terletak pada satu bidang."
+            },
+            {
+                "id": "d",
+                "nilai": "Kedua garis itu terletak pada satu bidang dan garis tersebut perpanjangannya tidak berpotongan."
+            }
+        ],
+        "jawaban": "d"
+    },
+    {
+        "id": 4,
+        "pertanyaan": "Dua garis sejajar dipotong oleh garis ketiga, maka akan terbentuk…",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "Sudut-sudut sehadap"
+            },
+            {
+                "id": "b",
+                "nilai": "Sudut-sudut bertolak belakang"
+            },
+            {
+                "id": "c",
+                "nilai": "Sudut sepihak"
+            },
+            {
+                "id": "d",
+                "nilai": "A,B,dan C benar"
+            }
+        ],
+        "jawaban": "d"
+    },
+    {
+        "id": 5,
+        "pertanyaan": "Berapakah besar sudut berikut ini!",
+        "gambar": "1-5.png",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "90˚"
+            },
+            {
+                "id": "b",
+                "nilai": "30˚"
+            },
+            {
+                "id": "c",
+                "nilai": "45˚"
+            },
+            {
+                "id": "d",
+                "nilai": "65˚"
+            }
+        ],
+        "jawaban": "d"
+    },
+    {
+        "id": 6,
+        "pertanyaan": "Dua garis sejajar dipotong oleh sebuah garis maka jumlah besar sudut sepihak sama dengan…",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "360˚"
+            },
+            {
+                "id": "b",
+                "nilai": "45˚"
+            },
+            {
+                "id": "c",
+                "nilai": "180˚"
+            },
+            {
+                "id": "d",
+                "nilai": "90˚"
+            }
+        ],
+        "jawaban": "d"
+    },
+    {
+        "id": 7,
+        "pertanyaan": "Melukis sudut 60˚ sama dengan melukis segitiga…",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "Siku-siku"
+            },
+            {
+                "id": "b",
+                "nilai": "Sama Kaki"
+            },
+            {
+                "id": "c",
+                "nilai": "Sama sisi"
+            },
+            {
+                "id": "d",
+                "nilai": "Sembarang"
+            }
+        ],
+        "jawaban": "d"
+    },
+    {
+        "id": 8,
+        "pertanyaan": "Perhatikan gambar dibawah ini! Yang merupakan sudut lancip adalah…",
+        "gambar": "1-8.png",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "(ii)"
+            },
+            {
+                "id": "b",
+                "nilai": "(i)"
+            },
+            {
+                "id": "c",
+                "nilai": "(iii)"
+            },
+            {
+                "id": "d",
+                "nilai": "(ii) dan (iv)"
+            }
+        ],
+        "jawaban": "d"
+    },
+    {
+        "id": 9,
+        "pertanyaan": "Perhatikan gambar dibawah ini! Berapakah besar sudut pada gambar diatas?",
+        "gambar": "1-9.png",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "90˚"
+            },
+            {
+                "id": "b",
+                "nilai": "75 ˚"
+            },
+            {
+                "id": "c",
+                "nilai": "55 ˚"
+            },
+            {
+                "id": "d",
+                "nilai": "100 ˚"
+            }
+        ],
+        "jawaban": "d"
+    },
+    {
+        "id": 10,
+        "pertanyaan": "Kaki- kaki sudut pada gambar di bawah ini adalah…",
+        "gambar": "1-10.png",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "AB dan AC "
+            },
+            {
+                "id": "b",
+                "nilai": "AB dan BC"
+            },
+            {
+                "id": "c",
+                "nilai": "AC dan BC"
+            },
+            {
+                "id": "d",
+                "nilai": "AB dan BA"
+            }
+        ],
+        "jawaban": "d"
+    }
+]

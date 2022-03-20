@@ -38,16 +38,20 @@
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body p-0">
                                 <div class="list-group list-group-flush">
-                                    <a href="../bab-1-sudut/1-mengenal-sudut.html" class="list-group-item list-group-item-action">
+                                    <a href="../bab-1-sudut/1-mengenal-sudut.html"
+                                        class="list-group-item list-group-item-action">
                                         Mengenal Sudut
                                     </a>
-                                    <a href="../bab-1-sudut/2-menghitung-sudut.html" class="list-group-item list-group-item-action">
+                                    <a href="../bab-1-sudut/2-menghitung-sudut.html"
+                                        class="list-group-item list-group-item-action">
                                         Menghitung Sudut
                                     </a>
-                                    <a href="../bab-1-sudut/3-ayo-berlatih.html" class="list-group-item list-group-item-action">
+                                    <a href="../bab-1-sudut/3-ayo-berlatih.html"
+                                        class="list-group-item list-group-item-action">
                                         Ayo Berlatih
                                     </a>
-                                    <a href="../bab-1-sudut/4-latihan-soal.html" class="list-group-item list-group-item-action">
+                                    <a href="../bab-1-sudut/4-latihan-soal.html"
+                                        class="list-group-item list-group-item-action">
                                         Latihan Soal
                                     </a>
                                 </div>
@@ -66,16 +70,20 @@
                             aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body p-0">
                                 <div class="list-group list-group-flush">
-                                    <a href="../bab-2-mengenal-sudut/1-sudut-siku-siku.html" class="list-group-item list-group-item-action">
-                                       Sudut Siku-siku
+                                    <a href="../bab-2-mengenal-sudut/1-sudut-siku-siku.html"
+                                        class="list-group-item list-group-item-action">
+                                        Sudut Siku-siku
                                     </a>
-                                    <a href="../bab-2-mengenal-sudut/2-sudut-lancip.html" class="list-group-item list-group-item-action">
-                                       Sudut Lancip
+                                    <a href="../bab-2-mengenal-sudut/2-sudut-lancip.html"
+                                        class="list-group-item list-group-item-action">
+                                        Sudut Lancip
                                     </a>
-                                    <a href="../bab-2-mengenal-sudut/3-sudut-tumpul.html" class="list-group-item list-group-item-action">
-                                       Sudut Tumpul
+                                    <a href="../bab-2-mengenal-sudut/3-sudut-tumpul.html"
+                                        class="list-group-item list-group-item-action">
+                                        Sudut Tumpul
                                     </a>
-                                    <a href="../bab-2-mengenal-sudut/4-ayo-berlatih.html" class="list-group-item list-group-item-action">
+                                    <a href="../bab-2-mengenal-sudut/4-ayo-berlatih.html"
+                                        class="list-group-item list-group-item-action">
                                         Ayo Berlatih
                                     </a>
                                     <a href="../bab-2-mengenal-sudut/5-latihan-soal.html"
@@ -98,11 +106,13 @@
                             aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body p-0">
                                 <div class="list-group list-group-flush">
-                                    <a href="./1-mengukur-sudut-satuan-baku.html" class="list-group-item list-group-item-action">
-                                       Mengukur Sudut Satuan Baku
+                                    <a href="./1-mengukur-sudut-satuan-baku.html"
+                                        class="list-group-item list-group-item-action">
+                                        Mengukur Sudut Satuan Baku
                                     </a>
-                                    <a href="./2-mengukur-sudut-bangun-datar.html" class="list-group-item list-group-item-action">
-                                       Mengukur Sudut Bangun Datar
+                                    <a href="./2-mengukur-sudut-bangun-datar.html"
+                                        class="list-group-item list-group-item-action">
+                                        Mengukur Sudut Bangun Datar
                                     </a>
                                     <a href="./3-ayo-berlatih.html" class="list-group-item list-group-item-action">
                                         Ayo Berlatih
@@ -113,7 +123,8 @@
                                     <a href="./5-tugas-proyek.html" class="list-group-item list-group-item-action">
                                         Tugas Proyek
                                     </a>
-                                    <a href="./6-latihan-soal-2.html" class="list-group-item list-group-item-action active">
+                                    <a href="./6-latihan-soal-2.html"
+                                        class="list-group-item list-group-item-action active">
                                         Latihan Soal 2
                                     </a>
                                 </div>
@@ -126,25 +137,60 @@
 
                 <div class="card mb-2">
                     <div class="card-header">
-                      <h5 class="card-title mt-2">
-                          Latihan Soal 2
-                      </h5>
+                        <h5 class="card-title mt-2">
+                            Latihan Soal
+                        </h5>
                     </div>
                     <div class="card-body overflow-scroll p-4" style="height: 370px;">
-                        
+
+                        <div class="row">
+                            <div class="col-12 col-lg-8">
+                                <div id="questionContainer">
+                                    <div class="spinner-border text-primary my-3" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h6 class="mb-3">Daftar Pertanyaan <span id="questionCurrent"
+                                                class="float-end badge bg-primary">1</span></h6>
+                                        <div class="row" id="questionList">
+                                            <div class="col text-center">
+                                                <div class="spinner-border text-primary my-3" role="status">
+                                                    <span class="visually-hidden">Loading...</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-muted">
+                                            Terjawab: <span class="float-end" id="questionAnswered">10/10</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-success mt-3 disabled" id="btn-finish">Selesai</button>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="card-footer text-muted">
-                      <a href="./5-tugas-proyek.html" class="btn btn-outline-primary float-start">
-                        <i class="bi-arrow-left fw-bold me-1"></i> Sebelumnya
-                      </a>
-                      <a href="#" class="btn btn-primary float-end disabled">
-                        Selesai <i class="bi-check-all fw-bold ms-1"></i>
-                      </a>
+                        <a href="./5-tugas-proyek.html" class="btn btn-outline-primary disabled btn-next float-start">
+                            <i class="bi-arrow-left fw-bold me-1"></i> Sebelumnya
+                        </a>
+                        <a href="../evaluasi/index.html" class="btn btn-primary disabled btn-next float-end">
+                            Evaluasi <i class="bi-check-all fw-bold ms-1"></i>
+                        </a>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+
+    <script src="../../asset/js/global.js"></script>
+    <script src="../../asset/js/jquery.min.js"></script>
+    <script>const QUESTION_URL = 'soal/latihan-soal-4.json';</script>
+    <script src="../../asset/js/latihan-soal.js" defer></script>
 </body>
 
 </html>
