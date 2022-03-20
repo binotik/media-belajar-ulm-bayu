@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "pertanyaan": "Untuk mengukur besar suatu sudut, kita menggunakan alat…",
+        "opsi": [
+            {
+                "id": "a",
+                "nilai": "Penggaris"
+            },
+            {
+                "id": "b",
+                "nilai": "Jangka"
+            },
+            {
+                "id": "c",
+                "nilai": "Busur Derajat"
+            },
+            {
+                "id": "d",
+                "nilai": "Gelas Ukur"
+            }
+        ],
+        "jawaban": "a"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "image": "1-5-1.png",
+        "answer": 80
+    },
+    {
+        "id": 2,
+        "image": "1-5-2.png",
+        "answer": 80
+    },
+    {
+        "id": 3,
+        "image": "1-5-3.png",
+        "answer": 80
+    },
+    {
+        "id": 4,
+        "image": "1-5-4.png",
+        "answer": 80
+    },
+    {
+        "id": 5,
+        "image": "1-5-5.png",
+        "answer": 80
+    },
+    {
+        "id": 6,
+        "image": "1-5-6.png",
+        "answer": 80
+    },
+    {
+        "id": 7,
+        "image": "1-5-7.png",
+        "answer": 80
+    },
+    {
+        "id": 8,
+        "image": "1-5-8.png",
+        "answer": 80
+    },
+    {
+        "id": 9,
+        "image": "1-5-9.png",
+        "answer": 80
+    }
+]

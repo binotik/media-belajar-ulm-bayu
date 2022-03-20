@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "image": "1-6-2.png",
+        "answer": 80
+    },
+    {
+        "id": 2,
+        "image": "1-6-3.png",
+        "answer": 80
+    },
+    {
+        "id": 3,
+        "image": "1-6-4.png",
+        "answer": 80
+    },
+    {
+        "id": 4,
+        "image": "1-6-6.png",
+        "answer": 80
+    },
+    {
+        "id": 5,
+        "image": "1-6-6.png",
+        "answer": 80
+    }
+]
